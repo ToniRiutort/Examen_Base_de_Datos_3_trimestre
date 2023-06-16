@@ -16,6 +16,8 @@ Yo he puesto que la querry tendria que ser SELECT MAX(*) FROM customers; pero da
 
 ![image](https://github.com/ToniRiutort/Examen_Base_de_Datos_3_trimestre/assets/104781981/7731dcce-627d-4dce-bc27-25a11a8bae87)
 
+Pero que si separas los valores no da ese error
+
 SELECT max(CustomerID),max(CustomerName),max(ContactName),max(Address),max(City),max(PostalCode),max(Country) FROM customers;
 
 ![image](https://github.com/ToniRiutort/Examen_Base_de_Datos_3_trimestre/assets/104781981/a55efa70-25b9-4ccf-94fe-ce7afb5d5b57)
